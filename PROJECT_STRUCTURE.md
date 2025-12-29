@@ -49,7 +49,7 @@ PROJEK 3/
 | `pemicu_stres.csv`             | 3000 | 5       | Stres kerja, masalah ekonomi, konflik besar, alkohol                     |
 | `demografi.csv`                | 3000 | 6       | Usia, jenis kelamin, pendidikan, pekerjaan, domisili                     |
 
-**Total Features**: 36+ fitur (setelah merge pada `responden_id`)
+**Total Features**: 37 fitur (setelah merge pada `responden_id`)
 
 **Format**: CSV dengan header  
 **Encoding**: UTF-8  
@@ -68,7 +68,7 @@ PROJEK 3/
 ```python
 {
     'model': XGBClassifier(...),  # Trained model object
-    'feature_names': [...]        # List of 36 feature names
+    'feature_names': [...]        # List of 37 feature names
 }
 ```
 
@@ -86,7 +86,7 @@ with open('model/xgb_model.pkl', 'rb') as f:
 **Model Specs**:
 
 - **Algorithm**: XGBoost Classifier (Multi-class: 3 classes)
-- **Input**: 36 features (encoded)
+- **Input**: 37 features (encoded)
 - **Output**: Class prediction (0/1/2) + probability distribution
 - **Performance**: ~85-90% accuracy (pada test set)
 
@@ -143,7 +143,7 @@ with open('model/xgb_model.pkl', 'rb') as f:
 
 # INPUT FORM (lines 78-161)
 - 3 columns layout
-- 36 input fields (radio buttons, number input)
+- 37 input fields (radio buttons, number input)
 
 # PREDICTION (lines 163-326)
 - Data preparation
@@ -154,7 +154,7 @@ with open('model/xgb_model.pkl', 'rb') as f:
 
 #### Features:
 
-- ✅ **Interactive Form**: User input 36 fitur
+- ✅ **Interactive Form**: User input 37 fitur
 - ✅ **Real-time Prediction**: Instant risk assessment
 - ✅ **SHAP Explainability**: Top 3 faktor meningkatkan/menurunkan risiko
 - ✅ **Probability Distribution**: Gauge chart 3 fase
