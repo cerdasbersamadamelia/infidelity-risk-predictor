@@ -13,6 +13,8 @@
 
 ## 🎯 Tentang Proyek
 
+Live Demo: [infidelity-risk-predictor.streamlit.app](https://infidelity-risk-predictor.streamlit.app/)
+
 Sistem machine learning untuk memprediksi **risiko infidelity (perselengkian)** dengan menganalisis 37 faktor dari 8 dimensi berbeda. Proyek ini menggunakan **XGBoost** dan **SHAP** untuk memberikan prediksi yang explainable.
 
 ### ✨ Fitur Utama
