@@ -221,7 +221,7 @@ pip install -r requirements.txt
 **Technical Deep Dive** - mencakup:
 
 - Problem statement & research questions
-- Dataset detail (36 features, 8 dimensi)
+- Dataset detail (37 features, 8 dimensi)
 - Methodology lengkap (EDA → Deployment)
 - Key findings dari SHAP analysis
 - Future improvements
@@ -243,7 +243,7 @@ pip install -r requirements.txt
 1. 📂 dataset/              ──→  2. 📓 notebook/app.ipynb
    (8 CSV files)                   ├─ EDA
    3000 responden                  ├─ Preprocessing
-   36+ features                    ├─ Feature Engineering
+   37 features                    ├─ Feature Engineering
                                    ├─ Labeling (rule-based)
                                    ├─ Training (XGBoost)
                                    ├─ Evaluation (SHAP)
@@ -257,7 +257,7 @@ pip install -r requirements.txt
                                       (Web Deployment)
                                           │
                                           ↓
-                                   5. 👤 User Input (36 fitur)
+                                   5. 👤 User Input (37 fitur)
                                           │
                                           ↓
                                    6. 🎯 Prediction + SHAP
@@ -273,7 +273,7 @@ Raw Data (CSV)
     ↓
 [Merge pada responden_id]
     ↓
-Master DataFrame (3000 × 36)
+Master DataFrame (3000 × 37)
     ↓
 [Preprocessing]
     ├─ Label Encoding
