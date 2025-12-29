@@ -55,7 +55,7 @@ PROJEK 3/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/cerdasbersamadamelia/infidelity-risk-predictor.git
+git clone https://github.com/cerdasbersamadamelia/Infidelity-Risk-Predictor.git
 cd infidelity-risk-predictor
 ```
 
