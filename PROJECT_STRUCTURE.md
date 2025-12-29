@@ -243,7 +243,7 @@ pip install -r requirements.txt
 1. 📂 dataset/              ──→  2. 📓 notebook/app.ipynb
    (8 CSV files)                   ├─ EDA
    3000 responden                  ├─ Preprocessing
-   37 features                    ├─ Feature Engineering
+   37 features                     ├─ Feature Engineering
                                    ├─ Labeling (rule-based)
                                    ├─ Training (XGBoost)
                                    ├─ Evaluation (SHAP)
