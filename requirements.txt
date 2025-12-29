@@ -4,7 +4,6 @@ matplotlib
 seaborn
 scikit-learn
 xgboost
-shap
+shap>=0.50.0
 streamlit
 plotly
-pickle5
